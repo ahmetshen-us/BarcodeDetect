@@ -13,8 +13,30 @@
     tools:context="us.ahmetshen.barcodedetect.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Process"
+            />
+
+        <ImageView
+            android:id="@+id/imgview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
 </RelativeLayout>
